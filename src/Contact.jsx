@@ -7,7 +7,7 @@ import sql from "./mysql.png"
 
 function Contact() {
   return (
-<div class="container-fluid">
+<div class="container-fluid mama text-">
     <div class="main-body">
           <div class="row gutters-sm">
             <div class="col-md-4 mb-3">
@@ -19,32 +19,32 @@ function Contact() {
                       <h4>MISHAM J</h4>
                       <p class="text-secondary mb-1">MERN Stack Developer</p>
                       <p class="text-muted font-size-sm">Kanyakumari</p>
-                      <a class="expobtn" href={sql} download> Download </a>
+                      <a class="expobtn" href={sql} download>Resume</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="card mt-3" style={{border: "none",boxShadow:"none"}}>
-                <ul class=" list-group-flush">
+                <ul class=" list-group">
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0">Website</h6>
-                    <a class="text-secondary text-decoration-none" >Coming Soon...</a>
+                    <a class="expobtn" href='https://mishamportfolio.netlify.app/' target="_blank" >View</a>
                   </li><br />
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0">Github</h6>
-                    <a class="text-secondary text-decoration-none" href='https://github.com/MISHAM-CHRIST-SHAMED-J' target="_blank">https://github.com/MISHAM-CHRIST-SHAMED-J</a>
+                    <a class=" expobtn" href='https://github.com/MISHAM-CHRIST-SHAMED-J' target="_blank">View</a>
                   </li><br />
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                    <h6 class="mb-0">indeed</h6>
-                    <span class="text-secondary">Coming Soon...</span>
+                    <h6 class="mb-0">Indeed</h6>
+                    <span class="expobtn">Coming Soon...</span>
                   </li><br />
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0">LinkedIn</h6>
-                    <span class="text-secondary">Coming Soon...</span>
+                    <span class="expobtn">Coming Soon...</span>
                   </li><br />
                   <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                     <h6 class="mb-0">Netlify</h6>
-                    <span class="text-secondary">Coming Soon...</span>
+                    <span class="expobtn">Coming Soon...</span>
                   </li>
                   
                 </ul>
@@ -99,10 +99,10 @@ function Contact() {
                 <div class="col-sm-6 mb-3">
                   <div class="card h-100" style={{border: "none",boxShadow:"none"}}>
                     <div class="card-body">
-                      <h6 class=" align-items-center text-center mb-3">FontEnd Skill Status</h6>
+                      <h4 class=" align-items-center text-center mb-3">FontEnd Skill</h4>
                       <h6>REACT</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar expobtn" role="progressbar" style={{width: "60%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class=" progress-bar progress-bar-striped active " role="progressbar" style={{width: "60%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6>JAVASCRIPT</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
@@ -126,7 +126,7 @@ function Contact() {
                 <div class="col-sm-6 mb-3">
                   <div class="card h-100" style={{border: "none",boxShadow:"none"}}>
                     <div class="card-body">
-                      <h6 class=" align-items-center text-center mb-3">BackEnd Skill Status</h6>
+                      <h4 class=" align-items-center text-center mb-3">BackEnd Skill</h4>
                       <h6 class="">NODE JS</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
                         <div class="progress-bar expobtn" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>

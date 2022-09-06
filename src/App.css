@@ -110,7 +110,10 @@ p{
     transform: translateX(-30px);
     animation: moveup 0.5s linear forwards;
 }
-
+.mama{
+  font-weight: 100;
+  font-size: 18px;
+}
 
 
 
