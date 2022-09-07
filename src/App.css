@@ -172,3 +172,8 @@ body{
 .shadow-none {
   box-shadow: none!important;
 }
+.navvbar{
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 100;
+}
