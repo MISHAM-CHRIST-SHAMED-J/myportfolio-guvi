@@ -1,58 +1,47 @@
 import React from 'react'
 import { Link, Outlet } from "react-router-dom";
 import About from './About';
-import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 
 function Subhome() {
+  
   return (
     
-    <div class="container-fluid">
- 
-{/* <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-  <div class="container-fluid">
-    <Link class="navbar-brand navlogo animlogo" to="/">MISHAM</Link>
-    <button class="navbar-toggler" type="button" onClick="showmenu" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse navvbar navitems" id="navbarNav">
-      <ul class="navbar-nav text-center" id='mizz'>
-        <li class="nav-item">
-          <Link class="nav-link active animhome" aria-current="page" to="/">MAIN</Link>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link animabout" to="/home/about">ABOUT</Link>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link animproject" to="/home/project">PROJECT</Link>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link animcontact" to="/home/contact">CONTACT</Link>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> */}
-
-
-<nav class="navbar container-fluid">
+   
+<>
+<Navbar bg="light"  expand="lg">
+      
+        <Navbar.Brand as={Link} to="/"></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Nav className="px-2" >
+        <Nav.Item className="px-2 navbar-nav text-center">
+        <Nav.Link  as={Link} to="/">MAIN</Nav.Link>
+        </Nav.Item>
+        <Nav.Item className="px-2 navbar-nav text-center">
+        <Nav.Link as={Link} to="/home/about">ABOUT</Nav.Link>
+        </Nav.Item>
+        <Nav.Item className="px-2 navbar-nav text-center">
+        <Nav.Link as={Link} to="/home/project">PROJECT</Nav.Link>
+        </Nav.Item>
+        <Nav.Item className="px-2 navbar-nav text-center">
+        <Nav.Link as={Link} to="/home/contact">CONTACT</Nav.Link>
+        </Nav.Item>
+      </Nav>
+        </Navbar.Collapse>
      
-<Link class="navbar-brand navlogo animlogo" to="/"></Link>
-     <ul class="nav-links">
-       <input type="checkbox" id="checkbox_toggle" />
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-         <div class="menu">
-         <li><Link class="nav-link active animhome" to="/">MAIN</Link></li>
-         <li><Link class="nav-link animabout" to="/home/about">ABOUT</Link></li>
-         <li><Link class="nav-link animproject" to="/home/project">PROJECT</Link></li>
-         <li><Link class="nav-link animcontact" to="/home/contact">CONTACT</Link></li>
-       </div>
-     </ul>
-   </nav>
+    </Navbar>
+
+  
     
     <Outlet></Outlet>
-    
-  </div>
+    </>
+ 
   )
 }
 
