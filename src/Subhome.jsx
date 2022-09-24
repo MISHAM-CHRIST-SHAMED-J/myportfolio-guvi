@@ -27,6 +27,9 @@ function Subhome() {
         <Nav.Link as={Link} to="/home/about">ABOUT</Nav.Link>
         </Nav.Item>
         <Nav.Item className="px-2 navbar-nav text-center">
+        <Nav.Link as={Link} to="/home/resume">RESUME</Nav.Link>
+        </Nav.Item>
+        <Nav.Item className="px-2 navbar-nav text-center">
         <Nav.Link as={Link} to="/home/project">PROJECT</Nav.Link>
         </Nav.Item>
         <Nav.Item className="px-2 navbar-nav text-center">

@@ -143,21 +143,15 @@ p{
 .mama{
   font-weight: 100;
   font-size: 18px;
-  background-color: rgb(240, 235, 235);
+  background:#fff;
   }
-  .abc{
-    background-color: rgb(240, 235, 235);
 
-  }
 
 .svgimg{
-  width: 30px;
-  filter: grayscale(100%);
+  width: 15px;
+ 
 }
-.svgimg:hover {
-cursor: pointer;
-  filter: grayscale(0%);
-}
+
 .mt{
   width: 20px;
 }

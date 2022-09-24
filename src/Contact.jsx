@@ -1,6 +1,5 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Link } from 'react-router-dom'
 import pic from "./logo.jpg"
 import sql from "./mysql.png"
 import svg from "./mongo.svg"
@@ -13,16 +12,15 @@ import css from "./css.svg"
 import jss from "./jss.svg"
 import api from "./api.svg"
 import sqll from "./sql.svg"
-import frnt from "./frnt.svg"
-import svr from "./svr.svg"
+
 
 
 
 function Contact() {
-  return (
+return (
 <div class="container-fluid mama ">
-    <div class="main-body kiwi ">
-          <div class="row gutters-sm">
+<div class="main-body kiwi ">
+<div class="row gutters-sm">
             <div class="col-md-3 mb-3">
               <div class="card" style={{border: "none",boxShadow:"none"}}>
                 <div class="card-body abc">
@@ -108,30 +106,30 @@ function Contact() {
                 </div>
               </div>
 <br />
-              <div class="row gutters-sm">
+              <div class="row gutters-sm ">
                 <div class="col-sm-6 mb-3">
                   <div class="card h-100" style={{border: "none",boxShadow:"none"}}>
                     <div class="card-body">
-                      <h4 class=" align-items-center text-secondary text-center mb-3"><img className='mt' src={frnt}/>&nbsp;FontEnd Skill</h4><br />
+                      <h4 class=" align-items-center text-secondary text-center mb-3">FontEnd Skill</h4><br />
                       <h6><img className='svgimg' src={react}/>&nbsp;REACT</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class=" progress-bar progress-bar-striped bg-success active " role="progressbar" style={{width: "60%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class=" progress-bar progress-bar-striped bg-success active " role="progressbar" style={{width: "80%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={jss}/>&nbsp;JAVASCRIPT</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-info active" role="progressbar" style={{width: "53%"}} aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "70%"}} aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={html}/>&nbsp;HTML</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-warning active" role="progressbar" style={{width: "80%"}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "85%"}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={css}/>&nbsp;CSS</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "80%"}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "75%"}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={boot}/>&nbsp;BOOTSTRAP</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                      <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "80%"}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "60%"}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                   </div>
@@ -139,26 +137,26 @@ function Contact() {
                 <div class="col-sm-6 mb-3">
                   <div class="card h-100" style={{border: "none",boxShadow:"none"}}>
                     <div class="card-body">
-                      <h4 class=" align-items-center text-secondary text-center mb-3"><img className='mt' src={svr}/>&nbsp;BackEnd Skill</h4><br />
+                      <h4 class=" align-items-center text-secondary text-center mb-3">BackEnd Skill</h4><br />
                       <h6 class=""><img className='svgimg' src={node}/>&nbsp;NODE JS</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
                         <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "80%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={js}/>&nbsp;EXPRESS JS</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-warning active" role="progressbar" style={{width: "80%"}} aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "70%"}} aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={sqll}/>&nbsp;MYSQL</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" style={{width: "80%"}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "60%"}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={svg}/>&nbsp;MONGODB</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" style={{width: "80%"}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "75%"}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <h6><img className='svgimg' src={api}/>&nbsp;BACKEND API</h6>
                       <div class="progress mb-3" style={{height: "5px"}}>
-                        <div class="progress-bar progress-bar-striped bg-danger active" role="progressbar" style={{width: "80%"}} aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-success active" role="progressbar" style={{width: "80%"}} aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                     </div>
                   </div>
@@ -171,6 +169,29 @@ function Contact() {
           </div>
 
         </div>
+        <div className='d-flex  justify-content-center p-5 w-100'>
+    <div class="col-lg-5  justify-content-center">
+      <div class="row">
+        <div class="col-lg-4  form-group">
+          <input class="form-control" id="name" name="name" required placeholder="Name" type="text" /><br />
+        </div>
+        <div class="col-lg-4 form-group">
+          <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" required/><br />
+        </div>
+        <div class="col-lg-4 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required/><br />
+        </div>
+      </div>
+      <div class="form-group">
+      <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea><br />
+      </div>
+      <div class="row">
+        <div class="col-sm-12 form-group text-center">
+          <button class=" expobtn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+      </div>
+      </div>
     </div>
   )
 }
